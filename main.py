@@ -5,6 +5,7 @@ conn = sqlite3.connect("student.db")
 # Create cursor
 cursor = conn.cursor()
 print("Database connected successfully")
+print("Version-2")
 
 #Step 4: Create Table
 cursor.execute("""
