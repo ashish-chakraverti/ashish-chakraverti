@@ -5,6 +5,7 @@ conn = sqlite3.connect("student.db")
 # Create cursor
 cursor = conn.cursor()
 print("Database connected successfully")
+print("version-1")
 print("Version-2")
 print("Version-3")
 
